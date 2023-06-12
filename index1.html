@@ -2,122 +2,31 @@
 <html>
 
 <head>
-  <title>RecipeShare</title>
-  <link rel="stylesheet" href="style1.css">
+  <title>Cook Book Corner</title>
+  <meta name="description" content="The best cooking recipes are here!">
+  <meta name="keywords"
+    content="yemek, resept, cooking, azerbaijani cuisine, cook, yemek reseptleri, recipe, delicious, creative, cook">
+  <link rel="icon" href="chef.png" type="image/x-icon">
 </head>
 
 <body>
-  <header>
-    <h1>Welcome to RecipeShare</h1>
-    <p>Discover, share, and explore delicious recipes!</p>
-    <div class="navbar">
-      <a href="index.html" class="active">Home</a>
-      <a href="contact.html">Contact Us</a>
-      <a href="profile.html"><img src="profile.png" alt="profil" width="30" height="30"></a></a>
-    </div>
-  </header>
-  <section id="search">
-    <h2>Search Recipes</h2>
-    <input type="text" id="search-input" placeholder="Search...">
-  </section>
-  <section id="featured-recipes">
-    <h2>Featured Recipes</h2>
-    <!-- Display a selection of featured recipes with images and brief descriptions -->
-    <div class="recipe-card">
-      <img src="recipe1.jpg" alt="Recipe 1">
-      <h3>Recipe 1</h3>
-      <p>A mouth-watering dish that will leave you craving for more.
-      </p>
-      <button class="like-button"><img src="heart.png" alt="Like"></button>
-      <button class="comment-button"><img src="chat.png" alt="Comment"></button>
-      <button class="save-button"><img src="icons8-bookmark-50.png" alt="Save"></button>
-      <div class="comment-form">
-        <input type="text" placeholder="Enter your comment">
-        <button class="submit-comment">Submit</button>
-      </div>
-    </div>
-    <div class="recipe-card">
-      <img src="recipe2.jpg" alt="Recipe 2">
-      <h3>Recipe 2</h3>
-      <p>Try this delectable dessert that is sure to impress your guests.</p>
-      <button class="like-button"><img src="heart.png" alt="Like"></button>
-      <button class="comment-button"><img src="chat.png" alt="Comment"></button>
-      <button class="save-button"><img src="icons8-bookmark-50.png" alt="Save"></button>
-      <div class="comment-form">
-        <input type="text" placeholder="Enter your comment">
-        <button class="submit-comment">Submit</button>
-      </div>
-    </div>
-    <div class="recipe-card">
-      <img src="recipe3.jpg" alt="Recipe 3">
-      <h3>Recipe 3</h3>
-      <p>Quick and easy recipe for a satisfying weeknight dinner.</p>
-      <button class="like-button"><img src="heart.png" alt="Like"></button>
-      <button class="comment-button"><img src="chat.png" alt="Comment"></button>
-      <button class="save-button"><img src="icons8-bookmark-50.png" alt="Save"></button>
-      <div class="comment-form">
-        <input type="text" placeholder="Enter your comment">
-        <button class="submit-comment">Submit</button>
-      </div>
-      <div class="comment-section">
-        <h4>Comments</h4>
-        <ul class="comment-list">
-          <li class="comment">Comment 1</li>
-          <li class="comment">Comment 2</li>
-          <!-- Add more comment list items dynamically using JavaScript -->
-        </ul>
-        <div class="comment-form">
-          <input type="text" placeholder="Enter your comment">
-          <button class="submit-comment">Submit</button>
-        </div>
-      </div>
+  <div id="heading">
+    <h1>Cook Book Corner</h1>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">RECIPES</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#"><img src="profile.png" alt="profil" width="50" height="50"></a></li>
+    </ul>
+  </div>
+  <div id="home"></div>
 
-    </div>
-  </section>
 
-  <section id="categories">
-    <h2>Browse by Category</h2>
-    <!-- Display different recipe categories with images -->
-    <div class="category-card">
-      <img src="category1.jpg" alt="Category 1">
-      <h3>Category 1</h3>
-    </div>
-    <div class="category-card">
-      <img src="category2.jpg" alt="Category 2">
-      <h3>Category 2</h3>
-    </div>
-    <div class="category-card">
-      <img src="category3.jpg" alt="Category 3">
-      <h3>Category 3</h3>
-    </div>
-  </section>
-  <section id="add-recipe">
-    <h2>Add Your Recipe</h2>
-    <form id="recipe-form">
-      <label for="recipe-name">Recipe Name:</label>
-      <input type="text" id="recipe-name" required>
 
-      <label for="recipe-description">Description:</label>
-      <textarea id="recipe-description" required></textarea>
 
-      <label for="recipe-ingredients">Ingredients:</label>
-      <textarea id="recipe-ingredients" required></textarea>
 
-      <label for="recipe-instructions">Instructions:</label>
-      <textarea id="recipe-instructions" required></textarea>
-
-      <button type="submit">Submit</button>
-    </form>
-    <div id="message"></div>
-  </section>
-
-  <!-- Add more sections or content as desired -->
-
-  <footer>
-    <p>© 2023 RecipeShare. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
+
+
 
 </html>
